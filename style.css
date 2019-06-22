@@ -1,0 +1,69 @@
+
+h{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 72px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -82.5%);
+}
+
+body {
+	width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(270deg, #244566, #402466, #662446);
+	background-size: 7800% 7800%;
+	-webkit-animation: Gradient 35s ease infinite;
+	-moz-animation: Gradient 35s ease infinite;
+	animation: Gradient 35s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+button{
+  font-family: 'Open Sans', sans-serif;
+  color: #EEE;
+  background-color: #444;
+  border: none;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 500%);
+}
